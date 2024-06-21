@@ -1,0 +1,24 @@
+/* src/components/ImageItem.css */
+.image-item {
+    cursor: pointer;
+    transition: transform 0.3s;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;
+  }
+  
+  .image-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-item:hover img {
+    transform: scale(1.1);
+  }
+  
